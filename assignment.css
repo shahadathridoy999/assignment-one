@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', sans-serif;
+}
+.elements{
+    max-width: 1320px;
+    width: 80%;
+    margin: 20px auto;
+}
+h2{
+    color: #070211;
+    font-size: 38px;
+    font-weight: 900;
+}
+h4{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+}
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Section1 */
+
+.header-content{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.header-content p{
+    padding-top: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-content h2{
+    width: 550px;
+    margin: 20px auto 100px;
+    padding-bottom: 200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+/* Section2 */
+
+.offer-contentmaint h2{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.offer-contentmaint h4{
+    text-align: center;
+    margin-top: 30px;
+}
+.offer-contentmaint h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer-back{
+    width: 800px;
+    margin: 30px auto 50px;
+}
+
+/* Section3 */
+
+.greetings{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.greetings-texting *{
+    margin-left: 100px;
+}
+.greetings-texting h2{
+    width: 600px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.greetings-texting p{
+    width: 600px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.greetings-texting .join-now{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.greetings-back .greetings-2024{
+    width: 250px;
+    margin: 10px 30px 10px 100px;
+}
+.greetings-2024 img{
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* Section4 */
+
+.date{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 10px;
+}
+.date-text {
+    width: 400px;
+    margin: 100px auto 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.date-text *{
+    margin-bottom: 10px;
+}
+.date-text p{
+    color: #070211;
+    font-size: 18px;
+    font-weight: 600;
+}
+.colorful-date{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button{
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Section5 */
+
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 70px;
+}
+.coming-soon .new-product{
+    width: 440px;
+}
+.coming-soon .new-product *{
+    padding-bottom: 10px;
+}
+.coming-soon .celebrate-img{
+    width: 440px;
+}
+.coming-soon .celebrate-img img{
+    border: 10px solid #F00;
+    border-radius: 440px;
+    padding: 20px;
+}
+.coming-soon .new-year{
+    width: 440px;
+    margin-left: 30px;
+}
+.coming-soon .new-year h2{
+    color: #F00;
+    padding-bottom: 10px;
+}
+.new-year-img{
+    padding-top: 30px;
+}
+
+/* Section6 */
+
+.gift-box img{
+    width: 100%;
+}
+.best-gift{
+    margin: 100px 0;
+}
+.best-gift-text h3{
+    color: #070211;
+    font-size: 38px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.best-gift-text .gift-description{
+    width: 65%;
+    color: rgba(7, 2, 17, 0.60);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+.product-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-img .row-img{
+    width: 32%;
+    margin-top: 30px;
+}
+.product-img .row-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* Section7 */
+
+.newsletter{
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    padding-bottom: 50px;
+}
+.newsletter-content{
+    width: 55%;
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.newsletter-content h2{
+    color: #070211;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter form{
+    max-width: 340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.newsletter form input{
+    flex-grow: 1;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+}
+.newsletter form button{
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 20px;
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Section8 */
+
+.footer-part{
+    max-width: 1500px;
+    margin: 50px auto 0;
+    background: #070211;
+    
+}
+.footer-part .address{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 80px 15px 0;
+}
+.address *{
+    color: #FFF;
+}
+.contact .call{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.contact .website{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-part hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icon{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 20px;
+}
+.icon img{
+    width: 42px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 18px;
+}
+.copyright *{
+    color: #FFF;
+}
